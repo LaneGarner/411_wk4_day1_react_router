@@ -12,7 +12,7 @@ Clone this repo and run `npm i` and then `npm start`
 
 * Now we are going to take this Router and import it into `App.js`. Place it right underneath the Navigation component. You will need to import `BrowserRouter` from `react-router-dom` and use it to wrap both the Navigation and the Router components.
 
-* If you were successful you should see a homepage with a lot of different car details on it. You should also be able to add "/about" to the end of the url to see the about page. Typing this paths in the browser will soon get tiring so let's add them to the Navigation component. There are two commented areas for you to add links. Create one Link to the Home page and one to the About page. If you forget how to do that, reference the documentation [here](https://reacttraining.com/react-router/web/api/Link).
+* If you were successful you should see a homepage with a lot of different car details on it. You should also be able to add "/about" to the end of the url to see the about page. Typing this path in the browser will soon get tiring so let's add them to the Navigation component. There are two commented areas for you to add links. Create one Link to the Home page and one to the About page. If you forget how to do that, reference the documentation [here](https://reacttraining.com/react-router/web/api/Link).
 
 * Next we want to fill out the `Car` component in `src/Car.js` but first we will need to be able to see it and `Link` to it. Inside of `Router.js` import the "Car" component and create a route for it. The path should be able to accept an id for the specific car as well. For example: "/car/:id".
 
